@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+- 13.0.0
+cache: npm
+install:
+  - npm ci
+  - npm i -g webpack
+  - npm i
+script:
+  - npm run start
