@@ -5,6 +5,6 @@ cache: npm
 install:
   - npm ci
   - npm i -g webpack
-  - npm i
+  - npm install
 script:
   - npm run start
